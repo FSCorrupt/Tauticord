@@ -1,5 +1,5 @@
 discord.py==2.0.0
-objectrest~=1.2
+objectrest~=2.0
 asyncio~=3.4
 tautulli~=2.1
 confuse~=1.7

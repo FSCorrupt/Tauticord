@@ -1,4 +1,6 @@
 # Number 1-9, and A-Z
+from typing import Optional
+
 emojis = [
     "1️⃣",
     "2️⃣",
@@ -37,6 +39,9 @@ emojis = [
     "🇿",
 ]
 
+def max_controllable_stream_count_supported(max_streams_override: Optional[int] = None) -> int:
+    return max_streams_override or len(emojis)
+
 
 def emoji_from_stream_number(number):
     return emojis[number - 1]
@@ -73,3 +78,16 @@ voice_channel_order = {
     'localBandwidth': 4,
     'remoteBandwidth': 5
 }
+
+
+KEY_STATS_CATEGORY_NAME = "stats_category_name"
+KEY_COUNT = "count"
+KEY_TRANSCODE_COUNT = "transcode_count"
+KEY_BANDWIDTH = "bandwidth"
+KEY_LAN_BANDWIDTH = "lan_bandwidth"
+KEY_REMOTE_BANDWIDTH = "remote_bandwidth"
+KEY_STATS = "stats"
+KEY_PLEX_STATUS = "plex_status"
+KEY_REFRESH_TIME = "refresh_time"
+KEY_LIBRARIES_CATEGORY_NAME = "libraries_category_name"
+KEY_LIBRARIES = "libraries"

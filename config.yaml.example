@@ -1,5 +1,4 @@
 appName: Tauticord
-logLevel: WARN
 
 Tautulli:
   Connection:
@@ -21,6 +20,7 @@ Tautulli:
         Bandwidth: false
         LocalBandwidth: false
         RemoteBandwidth: false
+        PlexStatus: false
       Libraries:
         CategoryName: "Tautulli Libraries"
         Enable: false
@@ -49,3 +49,4 @@ Discord:
 Extras:
   # See README.md for details
   Analytics: true
+  LogLevel: DEBUG

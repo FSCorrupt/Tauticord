@@ -74,6 +74,7 @@ You will need to set the following environment variables:
 | TC_VC_BANDWIDTH                 | Whether to display current bandwidth in a voice channel        | "False"                              |
 | TC_VC_LOCAL_BANDWIDTH           | Whether to display current local bandwidth in a voice channel  | "False"                              |
 | TC_VC_REMOTE_BANDWIDTH          | Whether to display current remote bandwidth in a voice channel | "False"                              |
+| TC_VC_PLEX_STATUS               | Whether to display Plex online status in a voice channel       | "False"                              |
 | TC_VC_LIBRARIES_CATEGORY_NAME   | Name of the libraries voice channel category                   | "Tautulli Libraries"                 |                                                                |                                      |
 | TC_VC_LIBRARY_STATS             | Whether to display library statistics in voice channels        | "False"                              |
 | TC_VC_LIBRARY_NAMES             | Comma-separated list of libraries to display statistics of     | "Movies,TV Shows,Music"              |       
@@ -84,6 +85,7 @@ You will need to set the following environment variables:
 | TC_DISCORD_CHANNEL_NAME         | Channel name for updates                                       | "Tautulli Status"                    |
 | TC_USE_EMBEDS                   | Use embedded messages rather than regular text chat            | "True"                               |
 | TC_ALLOW_ANALYTICS              | Allow Anonymous Crash Analytics?                               | "True"                               |                          |                                                                               |                                       
+| TC_LOG_LEVEL                    | Severity threshold for logs                                    | "INFO"                               |
 | TZ                              | Timezone that your server is in                                | "America/New_York"                   |
 
 # Analytics
